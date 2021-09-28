@@ -5,6 +5,7 @@
  const renderer = new THREE.WebGLRenderer({ antialias: true})
  
  renderer.setSize( window.innerWidth, window.innerHeight )
+ 
  // sets renderer background color
  renderer.setClearColor("#222222")
  document.body.appendChild( renderer.domElement )
