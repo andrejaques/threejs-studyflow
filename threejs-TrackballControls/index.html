@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang=”en”>
-<head>    
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="”en”">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First three.js Project</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <script src="./libs/three.min.js"></script>
     <script src="./libs/TrackballControls.js"></script>
     <script>
-
       // Scene
       const scene = new THREE.Scene();
 
@@ -144,7 +141,7 @@
             r: 2.75,
           },
         ];
-        
+
         // Loop 4 times (for each sphere), updating the position
         for (let i = 0; i < 4; i++) {
           sphereMeshes[i].position.x = trigs[i]["r"] * trigs[i]["x"];
@@ -155,7 +152,6 @@
       };
 
       rendering();
-
     </script>
-</body>
+  </body>
 </html>
