@@ -75,7 +75,7 @@ function init() {
   // apply texture to sun
   let mat = new THREE.MeshBasicMaterial({
     color: 0xffffff,
-    map: new THREE.TextureLoader().load("textures/sun.png"),
+    map: new THREE.TextureLoader().load("textures/sun8kH.jpg"),
   });
   sun = new THREE.Mesh(geo, mat);
   // add sun to scene
