@@ -77,7 +77,7 @@ for (let i = 0; i < 6; i++) {
 
 //Trackball Controls for Camera
 const controls = new THREE.TrackballControls(camera, renderer.domElement);
-controls.rotateSpeed = 4;
+controls.rotateSpeed = 2;
 controls.dynamicDampingFactor = 0.15;
 
 // Axes Helper
